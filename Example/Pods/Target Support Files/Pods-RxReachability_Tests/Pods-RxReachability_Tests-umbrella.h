@@ -11,6 +11,6 @@
 #endif
 
 
-FOUNDATION_EXPORT double Pods_RxReachability_TestsVersionNumber;
-FOUNDATION_EXPORT const unsigned char Pods_RxReachability_TestsVersionString[];
+FOUNDATION_EXPORT double Pods_RxALReachability_TestsVersionNumber;
+FOUNDATION_EXPORT const unsigned char Pods_RxALReachability_TestsVersionString[];
 

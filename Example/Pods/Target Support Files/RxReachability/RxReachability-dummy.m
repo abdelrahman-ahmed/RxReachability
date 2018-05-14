@@ -1,5 +1,5 @@
 #import <Foundation/Foundation.h>
-@interface PodsDummy_RxReachability : NSObject
+@interface PodsDummy_RxALReachability : NSObject
 @end
-@implementation PodsDummy_RxReachability
+@implementation PodsDummy_RxALReachability
 @end

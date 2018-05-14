@@ -1,6 +1,6 @@
 import UIKit
 import XCTest
-import RxReachability
+import RxALReachability
 
 class Tests: XCTestCase {
     

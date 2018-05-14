@@ -11,6 +11,6 @@
 #endif
 
 
-FOUNDATION_EXPORT double RxReachabilityVersionNumber;
-FOUNDATION_EXPORT const unsigned char RxReachabilityVersionString[];
+FOUNDATION_EXPORT double RxALReachabilityVersionNumber;
+FOUNDATION_EXPORT const unsigned char RxALReachabilityVersionString[];
 

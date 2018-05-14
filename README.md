@@ -1,18 +1,18 @@
-![Logo](https://raw.githubusercontent.com/ivanbruel/RxReachability/master/Assets/Logo.png)
+![Logo](https://raw.githubusercontent.com/ivanbruel/RxALReachability/master/Assets/Logo.png)
 
-RxReachability
+RxALReachability
 =========
 
-[![Version](https://img.shields.io/cocoapods/v/RxReachability.svg?style=flat)](http://cocoapods.org/pods/RxReachability)
-[![License](https://img.shields.io/cocoapods/l/RxReachability.svg?style=flat)](http://cocoapods.org/pods/RxReachability)
-[![Platform](https://img.shields.io/cocoapods/p/RxReachability.svg?style=flat)](http://cocoapods.org/pods/RxReachability)
+[![Version](https://img.shields.io/cocoapods/v/RxALReachability.svg?style=flat)](http://cocoapods.org/pods/RxALReachability)
+[![License](https://img.shields.io/cocoapods/l/RxALReachability.svg?style=flat)](http://cocoapods.org/pods/RxALReachability)
+[![Platform](https://img.shields.io/cocoapods/p/RxALReachability.svg?style=flat)](http://cocoapods.org/pods/RxALReachability)
 
-RxReachability adds easy to use RxSwift bindings for [ReachabilitySwift](https://github.com/ashleymills/Reachability.swift).
+RxALReachability adds easy to use RxSwift bindings for [ReachabilitySwift](https://github.com/ashleymills/Reachability.swift).
 You can react to network reachability changes and even retry observables when network comes back up.
 
 ## Available APIs
 
-RxReachability adds the following RxSwift bindings:
+RxALReachability adds the following RxSwift bindings:
 
 - `reachabilityChanged: Observable<Reachability>`
 - `status: Observable<Reachability.NetworkStatus>`
@@ -114,7 +114,7 @@ class AppDelegate: UIResponder, UIApplicationDelegate {
 
 ```swift
 import ReachabilitySwift
-import RxReachability
+import RxALReachability
 import RxSwift
 
 class ViewController: UIViewController {
@@ -158,7 +158,7 @@ class ViewController: UIViewController {
 
 ## Advanced Usage
 
-With RxReachability you can also add a retry when network comes back up with a given timeout.
+With RxALReachability you can also add a retry when network comes back up with a given timeout.
 This does require you to have a stored instance of Reachability though.
 
 ```swift
@@ -173,10 +173,10 @@ func request(somethingId: Int) -> Observable<Something> {
 
 ### Installation via CocoaPods
 
-To integrate RxReachability into your Xcode project using CocoaPods, simply add the following line to your Podfile:
+To integrate RxALReachability into your Xcode project using CocoaPods, simply add the following line to your Podfile:
 
 ```ruby
-pod 'RxReachability'
+pod 'RxALReachability'
 ```
 
 ## Example
@@ -185,4 +185,4 @@ To run the example project, clone the repo, and run `pod install` from the Examp
 
 ## License
 
-RxReachability is available under the MIT license. See the LICENSE file for more info.
+RxALReachability is available under the MIT license. See the LICENSE file for more info.
