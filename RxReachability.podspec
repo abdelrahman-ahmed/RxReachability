@@ -8,7 +8,7 @@
 
 Pod::Spec.new do |s|
   s.name             = 'RxReachability'
-  s.version          = '0.1.4'
+  s.version          = '0.1.5'
   s.summary          = 'RxSwift bindings for Reachability'
 
 
@@ -23,14 +23,14 @@ Pod::Spec.new do |s|
   s.source           = { :git => 'https://github.com/ivanbruel/RxReachability.git', :tag => s.version.to_s }
   s.social_media_url = 'https://twitter.com/ivanbruel'
 
-  s.ios.deployment_target = '8.0'
+  s.ios.deployment_target = '10.0'
   s.osx.deployment_target = '10.10'
-  s.tvos.deployment_target = '9.0'
+  s.tvos.deployment_target = '11.0'
 
   s.source_files = 'RxReachability/Classes/**/*'
 
   # s.frameworks = 'UIKit', 'MapKit'
   s.dependency 'ReachabilitySwift', '~> 4'
-  s.dependency 'RxSwift', '~> 4'
-  s.dependency 'RxCocoa', '~> 4'
+  s.dependency 'RxSwift', '~> 4.1.2'
+  s.dependency 'RxCocoa', '~> 4.1'
 end
