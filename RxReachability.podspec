@@ -7,8 +7,8 @@
 #
 
 Pod::Spec.new do |s|
-  s.name             = 'RxReachability'
-  s.version          = '0.1.5'
+  s.name             = 'RxALReachability'
+  s.version          = '0.1.6'
   s.summary          = 'RxSwift bindings for Reachability'
 
 
